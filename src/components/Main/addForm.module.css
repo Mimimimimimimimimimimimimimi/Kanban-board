@@ -1,0 +1,40 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.input{
+    margin: 8px 0;
+    padding: 8px 0;
+    background-color: #ffffff;
+    border-radius: 5px;
+    font-size: 18px;
+    width: 100%;
+    border-width: 0;
+}
+
+.input::placeholder{
+    color: #858585;
+    font-size: 14px;
+}
+
+.input:focus{
+    border: 2px solid;
+    outline: none;
+    border-color: #03a763;
+}
+
+  .submitButton{
+    background-color: #0079BF;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 8px 24px;
+  }
+
+  .submitButton:hover{
+    background-color: #035aa7;
+  }
+
+ 

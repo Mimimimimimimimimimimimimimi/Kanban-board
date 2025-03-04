@@ -1,0 +1,64 @@
+.list {
+    background-color: #EBECF0;
+    border-radius: 10px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    }
+
+.listTitle{
+margin: 0 0 12px 0;
+}
+
+.taskLink{
+color: black;
+text-decoration: none;
+}
+
+.task:hover{
+    color: black;
+    background-color: rgb(231, 245, 252);
+}
+
+.task{
+    padding: 8px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    font-size: 18px;
+    margin: 6px 0;
+}
+.notask{
+    color: #737373;
+    padding: 8px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    font-size: 18px;
+    margin: 6px 0;
+    }
+
+.addButton{
+    border: none;
+   border-radius: 5px;
+    cursor: pointer;
+    color: #737373;
+    font-size: 18px;
+    text-align: start;
+    padding: 8px 0;
+}
+
+.addButton:hover {
+    border-color: #575cfb;
+  }
+
+  .addInactive{
+    color: #a8a8a8;
+    font-size: 18px;
+    text-align: start;
+    padding: 8px 0;
+  }
+
+  .addInactive:hover {
+    background-color: #EBECF0;
+  }
+
+  

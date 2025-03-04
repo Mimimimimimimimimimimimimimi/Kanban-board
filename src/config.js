@@ -1,0 +1,21 @@
+const LIST_TYPES = {
+	BACKLOG: 'Backlog',
+	READY: 'Ready',
+	IN_PROGRESS: 'In Progress',
+	DONE: 'Finished',
+}
+
+const LIST_COPY = {
+	[LIST_TYPES.BACKLOG]: 'Backlog',
+	[LIST_TYPES.READY]: 'Ready',
+	[LIST_TYPES.IN_PROGRESS]: 'In Progress',
+	[LIST_TYPES.DONE]: 'Finished',
+}
+
+const LIST_PREVIOUS = {
+    [LIST_TYPES.READY]: LIST_TYPES.BACKLOG,
+    [LIST_TYPES.IN_PROGRESS]: LIST_TYPES.READY,
+    [LIST_TYPES.DONE]: LIST_TYPES.IN_PROGRESS
+  };
+
+export { LIST_TYPES, LIST_COPY, LIST_PREVIOUS }

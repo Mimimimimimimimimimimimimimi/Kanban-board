@@ -1,0 +1,63 @@
+.header{
+    background-color: #0067A3;
+    height: 55px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 448px) {
+    h1 {
+      display: none;
+    }
+    .header{
+    background-color: #0079BF;
+    justify-content: end;}
+  }
+
+
+h1{
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+}
+
+.avatar {
+    position: relative;
+}
+
+.arrow {
+    cursor: pointer;
+    margin-bottom: 15px;
+    margin-left: 10px; 
+}
+.arrow:hover{
+    fill: rgb(255, 255, 117);
+    transform: scale(1.1); 
+}
+
+.profile{
+  
+    background-image: url('../../assets/bubble.svg');
+    background-size: cover; 
+    line-height: 1.5em;
+    border-radius: 5px;
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    list-style: none;
+    padding: 10px 70px 8px 7px;
+    font-size: 14px;
+    box-shadow: 2px 5px 5px rgba(116, 116, 116, 0.2);
+    z-index: 1;
+}
+
+li{
+    text-align: start;
+    cursor: pointer;
+}
+
+li:hover{
+   text-decoration: underline;
+    color: rgb(34, 34, 155);
+}

@@ -1,0 +1,56 @@
+
+.description {
+    font-size: 18px;
+    line-height: 1.5;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border: 1px solid transparent;
+}
+
+.description:hover {
+    background-color: rgb(231, 231, 231);
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.textArea {
+    width: 96%;
+    height: fit-content;
+    outline: none;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+    background-color:  rgb(231, 231, 231);
+    padding: 10px;
+}
+
+.wrapper {
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 22px;
+    position: relative;
+    margin: 26px;
+}
+
+.title {
+    font-size: 24px;
+    margin-left: 8px;
+}
+
+.closeButton {
+    background-color: rgb(255, 255, 255);
+    color: rgb(55, 55, 55);
+    position: absolute;
+    font-size: 23px;
+    top: 17px;
+    right: 23px;
+    cursor: pointer;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+}
